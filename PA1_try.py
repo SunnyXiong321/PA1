@@ -122,10 +122,6 @@ def main():
                     time.sleep(0.3)
                     show_schedule()
 
-        # VIEW
-        elif action == "view":
-            show_schedule()
-
 #Run Program
 if __name__ == "__main__":
     main()
