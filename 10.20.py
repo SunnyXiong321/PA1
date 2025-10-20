@@ -1,16 +1,13 @@
+'''
+setting up a version of PA1 that uses file instead of dictionaries
+'''
+
 # Sophomore Schedule Manager
 import time
 
 # Define your full year schedule
 schedule = {
-    "Mod 1": {"A Block": "Global", "B Block": "Free Block", "C Block": "Chemistry", "D Block": "JV Tennis"},
-    "Mod 2": {"A Block": "Computer Science II", "B Block": "English", "C Block": "ISE", "D Block": "JV Tennis"},
-    "Mod 3": {"A Block": "Chemistry", "B Block": "English", "C Block": "Math", "D Block": "JV Tennis"},
-    "Mod 4": {"A Block": "Global", "B Block": "Math", "C Block": "ISE", "D Block": "Yearbook"},
-    "Mod 5": {"A Block": "Co-curric", "B Block": "Co-curric", "C Block": "Co-curric", "D Block": "Yearbook"},
-    "Mod 6": {"A Block": "Global", "B Block": "Chemistry", "C Block": "ISE", "D Block": "V Tennis"},
-    "Mod 7": {"A Block": "Math", "B Block": "English", "C Block": "Forensic Science", "D Block": "V Tennis"}
-}
+   }
 
 seasons = {
     "Fall": ["Mod 1", "Mod 2", "Mod 3"],
